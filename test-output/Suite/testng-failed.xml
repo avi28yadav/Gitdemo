@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="QAclick.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="validate text(failed)" parallel="tests">
+    <classes>
+      <class name="QAclick.ValidateTest">
+        <methods>
+          <include name="validateAppTitle"/>
+          <include name="teardown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- QAclick.ValidateTest -->
+    </classes>
+  </test> <!-- validate text(failed) -->
+</suite> <!-- Failed suite [Suite] -->

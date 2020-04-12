@@ -1,0 +1,7 @@
+19:32:01.631 [main] ERROR QAclick.ValidateTest - error
+19:37:05.812 [TestNG-tests-1] INFO  QAclick.ValidateTest - Initialized browser
+19:37:05.823 [TestNG-tests-1] DEBUG QAclick.ValidateTest - intialize broswer
+19:37:05.824 [TestNG-tests-1] ERROR QAclick.ValidateTest - error
+19:52:08.547 [TestNG-tests-1] INFO  QAclick.ValidateTest - Initialized browser
+19:52:08.788 [TestNG-tests-1] DEBUG QAclick.ValidateTest - intialize broswer
+19:52:08.788 [TestNG-tests-1] ERROR QAclick.ValidateTest - error

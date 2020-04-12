@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" >
+<listeners>
+<listener class-name ="QAclick.Listeners" />
+</listeners>
+	<test  name="validate text">
+		<classes>
+			<class name="QAclick.ValidateTest" />
+		</classes>
+		</test>
+		<test  name="Validate homepage">
+		<classes>
+		<class name="QAclick.Homepage" />
+		</classes>
+		</test>
+		<test  name="Test3">
+		<classes>
+		<class name="QAclick.AppTest" />
+	</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
