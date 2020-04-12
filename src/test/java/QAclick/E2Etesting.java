@@ -32,6 +32,7 @@ public class E2Etesting {
 		driver.findElement(By.cssSelector("#autocomplete")).sendKeys(Keys.ENTER);
 		System.out.println("Github");
 		System.out.println("Github1");
+		System.out.println("Github2");
 		
 	}
 }
